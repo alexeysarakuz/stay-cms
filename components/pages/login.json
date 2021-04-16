@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pages_logins",
+  "info": {
+    "name": "login",
+    "icon": "key",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "form": {
+      "type": "component",
+      "repeatable": true,
+      "component": "forms.form",
+      "required": true
+    },
+    "navTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

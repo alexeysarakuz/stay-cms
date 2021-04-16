@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_forms_forms",
+  "info": {
+    "name": "form",
+    "icon": "pen-nib",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "email",
+        "phone"
+      ],
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

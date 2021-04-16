@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_pages_stays",
+  "info": {
+    "name": "stay",
+    "icon": "bed",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "navTitle": {
+      "type": "string",
+      "required": true
+    },
+    "roomImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "acommodations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "stay-components.acommodations",
+      "required": true
+    }
+  }
+}

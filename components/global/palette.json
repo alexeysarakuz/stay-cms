@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_global_palettes",
+  "info": {
+    "name": "Palette",
+    "icon": "palette",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "primaryColor": {
+      "type": "string",
+      "required": true
+    },
+    "secondaryColor": {
+      "type": "string",
+      "required": true
+    },
+    "primaryButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "palette.button",
+      "required": true
+    },
+    "secondaryButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "palette.button",
+      "required": true
+    }
+  }
+}

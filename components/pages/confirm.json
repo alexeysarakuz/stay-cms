@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_pages_confirms",
+  "info": {
+    "name": "confirm",
+    "icon": "id-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "reminder": {
+      "type": "text",
+      "required": false
+    },
+    "navTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

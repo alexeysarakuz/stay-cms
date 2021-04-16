@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_palette_buttons",
+  "info": {
+    "name": "button",
+    "icon": "arrow-circle-left"
+  },
+  "options": {},
+  "attributes": {
+    "background": {
+      "type": "string",
+      "required": true
+    },
+    "color": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

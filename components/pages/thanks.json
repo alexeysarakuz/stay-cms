@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_pages_thanks",
+  "info": {
+    "name": "thanks",
+    "icon": "shopping-bag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "navTitle": {
+      "type": "string",
+      "required": false
+    }
+  }
+}
