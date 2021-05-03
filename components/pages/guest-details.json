@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_pages_guest_details",
+  "info": {
+    "name": "GuestDetails",
+    "icon": "pen-alt"
+  },
+  "options": {},
+  "attributes": {
+    "navTitle": {
+      "type": "string"
+    }
+  }
+}

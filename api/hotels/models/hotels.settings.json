@@ -35,7 +35,8 @@
         "pages.stay",
         "pages.confirm",
         "pages.thanks",
-        "pages.welcome"
+        "pages.welcome",
+        "pages.guest-details"
       ],
       "required": true,
       "min": 1

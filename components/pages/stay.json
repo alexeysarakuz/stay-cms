@@ -20,7 +20,7 @@
       "plugin": "upload",
       "required": true
     },
-    "acommodations": {
+    "accommodations": {
       "type": "component",
       "repeatable": true,
       "component": "stay-components.acommodations",
